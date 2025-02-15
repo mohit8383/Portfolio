@@ -1,0 +1,33 @@
+{
+  "name": "Portfolio | Mohit Kasat",
+  "short_name": "Mohit Kasat",
+  "description": "Mohit Kasat's Portfolio Website.",
+  "icons": [
+    {
+      "src": "/public/icons8-m-cloud-72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/public/icons8-m-cloud-76.png",
+      "sizes": "76x76",
+      "type": "image/png"
+    },
+    {
+      "src": "/public/icons8-m-cloud-96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/public/icons8-m-cloud-32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#7000FF",
+  "background_color": "#000000",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}

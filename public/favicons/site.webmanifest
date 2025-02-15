@@ -1,0 +1,19 @@
+{
+  "name": "",
+  "short_name": "",
+  "icons": [
+    {
+      "src": "/public/favicons/icons8-m-cloud-96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "/public/favicons/icons8-m-cloud-72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
