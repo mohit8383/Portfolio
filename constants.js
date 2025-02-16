@@ -113,6 +113,15 @@ export const PROJECTS = [
     tech: ["react", "redux", "tailwindcss"],
   },
   {
+    name: "Olympic 2024 Dashboard Using Power BI",
+    image: "/projects/Olympic.webp",
+    blurImage: "/projects/blur/Olympic-blur.webp",
+    description: "Interactive Power BI dashboard providing insights on the 2024 Olympics 🏅",
+    gradient: ["#142D46", "#2E4964"],
+    url: "https://app.powerbi.com/view?r=eyJrIjoiZDhiYzE0MzktYjI1OC00M2M2LWIzMmQtMjUxMWZiM2I5NmY5IiwidCI6IjM0YmQ4YmVkLTJhYzEtNDFhZS05ZjA4LTRlMGEzZjExNzA2YyJ9&embedImagePlaceholder=true",
+    tech: ["powerbi", "pandas", "data-visualization"],
+  },
+  {
     name: "Image Classification by Machine Learning Using Python",
     image: "/projects/imageclasification normal.webp",
     blurImage: "/projects/blur/imageclassification.webp",
@@ -122,15 +131,6 @@ export const PROJECTS = [
     url: "https://imageclasify.streamlit.app/",
     tech: ["python", "tensorflow", "scikit-learn", "matplotlib"],
   },
-  {
-    name: "Olympic 2024 Dashboard Using Power BI",
-    image: "/projects/Olympic.webp",
-    blurImage: "/projects/blur/Olympic-blur.webp",
-    description: "Interactive Power BI dashboard providing insights on the 2024 Olympics 🏅",
-    gradient: ["#142D46", "#2E4964"],
-    url: "https://github.com/mohit8383/Olympic-2024-Dashboard-Using-Power-BI",
-    tech: ["powerbi", "pandas", "data-visualization"],
-  }
 ];
 
 export const WORK = [
