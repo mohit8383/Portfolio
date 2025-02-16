@@ -104,13 +104,14 @@ export const PROJECTS = [
     tech: ["django", "react", "postgresql", "tailwindcss"],
   },
   {
-    name: "Book Basket",
-    image: "/projects/Bookbasket.webp",
-    blurImage: "/projects/Bookbasket.webp",
-    description: "An online book store built with ReactJS 📚",
-    gradient: ["#FFA62E", "#EA4D2C"],
-    url: "https://github.com/mohit8383/Book-Basket--Your-Ultimate-Companion",
-    tech: ["react", "redux", "tailwindcss"],
+    name: "Image Classification by Machine Learning Using Python",
+    image: "/projects/imageclasification normal.webp",
+    blurImage: "/projects/blur/imageclassification.webp",
+    description:
+      "Developed an image classification model using ML techniques to achieve high accuracy 📸",
+    gradient: ["#000066", "#6699FF"],
+    url: "https://imageclasify.streamlit.app/",
+    tech: ["python", "tensorflow", "scikit-learn", "matplotlib"],
   },
   {
     name: "Olympic 2024 Dashboard Using Power BI",
@@ -122,14 +123,13 @@ export const PROJECTS = [
     tech: ["powerbi", "pandas", "data-visualization"],
   },
   {
-    name: "Image Classification by Machine Learning Using Python",
-    image: "/projects/imageclasification normal.webp",
-    blurImage: "/projects/blur/imageclassification.webp",
-    description:
-      "Developed an image classification model using ML techniques to achieve high accuracy 📸",
-    gradient: ["#000066", "#6699FF"],
-    url: "https://imageclasify.streamlit.app/",
-    tech: ["python", "tensorflow", "scikit-learn", "matplotlib"],
+    name: "Book Basket",
+    image: "/projects/Bookbasket.webp",
+    blurImage: "/projects/Bookbasket.webp",
+    description: "An online book store built with ReactJS 📚",
+    gradient: ["#FFA62E", "#EA4D2C"],
+    url: "https://github.com/mohit8383/Book-Basket--Your-Ultimate-Companion",
+    tech: ["react", "redux", "tailwindcss"],
   },
 ];
 
