@@ -100,7 +100,7 @@ export const PROJECTS = [
     blurImage: "/projects/blur/hotel_booking_blur.webp",
     description: "A full-featured hotel booking system built with Django and React 🏨",
     gradient: ["#1E3A8A", "#2563EB"],
-    url: "YOUR_PROJECT_URL_HERE",
+    url: "https://hotel-management-cqvn.onrender.com",
     tech: ["django", "react", "postgresql", "tailwindcss"],
   },
   {
