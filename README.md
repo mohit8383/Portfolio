@@ -1,6 +1,6 @@
 # devfolio
 
-<a href="(https://portfolio-mohit-gamma.vercel.app/)">
+<a href="[https://portfolio-mohit-gamma.vercel.app/]">
   <img alt="devfolio" src="./public/preview.png" />
 </a>
 
