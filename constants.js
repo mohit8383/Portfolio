@@ -44,9 +44,9 @@ export const MENULINKS = [
 ];
  
 export const TYPED_STRINGS = [
-  "A pragmatic Frontend Developer",
-  "I build things for the web",
-  "I create aesthetic and modern apps",
+  "A passionate Computer Science enthusiast",
+  "I build intelligent systems using Machine Learning",
+  "I create data-driven solutions for real-world problems",
 ];
 
 export const SOCIAL_LINKS = [
@@ -96,8 +96,8 @@ export const SKILLS = {
 export const PROJECTS = [
   {
     name: "Hotel Booking System",
-    image: "/public/projects/hotel_booking.webp",
-    blurImage: "/public/projects/blur/hotel_booking_blur.webp",
+    image: "/projects/hotel_booking.webp",
+    blurImage: "/projects/blur/hotel_booking_blur.webp",
     description: "A full-featured hotel booking system built with Django and React 🏨",
     gradient: ["#1E3A8A", "#2563EB"],
     url: "YOUR_PROJECT_URL_HERE",
@@ -105,8 +105,8 @@ export const PROJECTS = [
   },
   {
     name: "Book Basket",
-    image: "/projects/book-basket.webp",
-    blurImage: "/projects/blur/book-basket-blur.webp",
+    image: "/projects/Bookbasket.webp",
+    blurImage: "/projects/Bookbasket.webp",
     description: "An online book store built with ReactJS 📚",
     gradient: ["#FFA62E", "#EA4D2C"],
     url: "YOUR_PROJECT_URL_HERE",
@@ -114,8 +114,8 @@ export const PROJECTS = [
   },
   {
     name: "Image Classification by Machine Learning Using Python",
-    image: "/projects/image-classification.webp",
-    blurImage: "/projects/blur/image-classification-blur.webp",
+    image: "/projects/imageclasification normal.webp",
+    blurImage: "/projects/blur/imageclassification.webp",
     description:
       "Developed an image classification model using ML techniques to achieve high accuracy 📸",
     gradient: ["#000066", "#6699FF"],
@@ -124,8 +124,8 @@ export const PROJECTS = [
   },
   {
     name: "Olympic 2024 Dashboard Using Power BI",
-    image: "/public/projects/Olympic.webp",
-    blurImage: "/public/projects/blur/Olympic-blur.webp",
+    image: "/projects/Olympic.webp",
+    blurImage: "/projects/blur/Olympic-blur.webp",
     description: "Interactive Power BI dashboard providing insights on the 2024 Olympics 🏅",
     gradient: ["#142D46", "#2E4964"],
     url: "https://github.com/mohit8383/Olympic-2024-Dashboard-Using-Power-BI",
