@@ -109,7 +109,7 @@ export const PROJECTS = [
     blurImage: "/projects/Bookbasket.webp",
     description: "An online book store built with ReactJS 📚",
     gradient: ["#FFA62E", "#EA4D2C"],
-    url: "YOUR_PROJECT_URL_HERE",
+    url: "https://github.com/mohit8383/Book-Basket--Your-Ultimate-Companion",
     tech: ["react", "redux", "tailwindcss"],
   },
   {
