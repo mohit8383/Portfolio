@@ -1,27 +1,94 @@
+// Define reusable variables for consistency and ease of updates
+$tilt-angle: -22.5deg;
+$project-image-width: 17rem;
+$project-image-right: 2rem;
+$perspective: 1000px;
+
+// Main container for the project tile
 .projectTile {
-    transform-style: preserve-3d;
-    transform: perspective(1000px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  background: linear-gradient(to right, rgba(255, 153, 51, 0.2), rgba(255, 94, 0, 0.4));
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 
-    img {
-        object-fit: cover;
-    }
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.25);
+  }
 }
 
+// Title Styling
+.projectTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+// Description Styling
+.projectDescription {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  max-width: 60%; // Ensures the text does not expand too much
+}
+
+// Project Image Styling
 .projectImage {
-    @apply absolute top-0 rounded-xl shadow-xl;
+  width: $project-image-width;
+  height: auto;
+  max-height: 12rem;
+  border-radius: 0.75rem;
+  object-fit: cover;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
 
-    width: 17rem !important;
-    transform: rotate(-22.5deg);
-    height: unset !important;
-    min-width: unset !important;
-    max-height: unset !important;
-    object-fit: contain !important;
-    left: unset !important;
-    right: 2rem !important;
-    bottom: unset !important;
+  &:hover {
+    transform: scale(1.05);
+  }
 }
 
+// Tech Stack Icons
 .techIcons {
-    transform: rotate(-22.5deg) translateZ(2rem);
-    will-change: transform;
+  transform: rotate($tilt-angle) translateZ(2rem);
+  will-change: transform;
+  display: flex;
+  gap: 0.75rem;
+
+  img {
+    width: 2.5rem;
+    height: 2.5rem;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1) rotate(5deg);
+    }
+  }
+}
+
+// Responsive Adjustments
+@media (max-width: 768px) {
+  .projectTile {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .projectDescription {
+    max-width: 100%;
+  }
+
+  .projectImage {
+    width: 100%;
+    max-height: 10rem;
+  }
+
+  .techIcons {
+    justify-content: center;
+  }
 }
