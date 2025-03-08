@@ -71,7 +71,7 @@ export const SOCIAL_LINKS = [
 export const SKILLS = {
   languagesAndTools: [
     "python",
-    "Java",
+    "java",
     "javascript",
     "typescript",
     "docker",
@@ -103,7 +103,7 @@ export const PROJECTS = [
     description: "An online Agri Products website built with Spring Boot 📚",
     gradient: ["#FFA62E", "#EA4D2C"],
     url: "http://agri-estore.eu-north-1.elasticbeanstalk.com",
-    tech: ["Java", "AWS", "javascript"],
+    tech: ["java", "AWS", "javascript"],
   },
   {
     name: "Hotel Booking System",
