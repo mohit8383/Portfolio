@@ -102,7 +102,7 @@ export const PROJECTS = [
     blurImage: "/projects/blur/Agriestore_blur.webp",
     description: "An online Agri Products website built with Spring Boot 📚",
     gradient: ["#FFA62E", "#EA4D2C"],
-    url: "http://agri-estore.eu-north-1.elasticbeanstalk.com",
+    url: "https://agristore.onrender.com/",
     tech: ["java", "AWS", "javascript"],
   },
   {
