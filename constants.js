@@ -137,6 +137,22 @@ export const PROJECTS = [
 
 export const WORK = [
   {
+    id: 2,
+    company: "PwC (PricewaterhouseCoopers)",
+    title: "Risk Consultant – AI & Cybersecurity",
+    location: "Gurugram, India",
+    range: "Sep 2025 – Present",
+    responsibilities: [
+      "Supporting clients in AI & Cybersecurity risk consulting projects.",
+      "Contributing to cybersecurity frameworks such as ISO 27001 and threat management strategies.",
+      "Applying Python, SQL, and data analytics to build secure and scalable solutions.",
+      "Collaborating with cross-functional teams to drive risk mitigation and compliance initiatives.",
+    ],
+    url: "https://www.pwc.in/",
+    video: null,
+    highlight: true, // Custom property to highlight as current role
+  },
+  {
     id: 1,
     company: "DRDO",
     title: "Machine Learning Intern",
@@ -153,6 +169,33 @@ export const WORK = [
 ];
 
 export const WORK_CONTENTS = {
+  PwC: [
+    {
+      title: "Risk Consultant – AI & Cybersecurity",
+      description:
+        "Currently working at PwC (PricewaterhouseCoopers) in Gurugram, India, supporting clients in AI & Cybersecurity risk consulting projects.",
+      content: (
+        <div className="h-full w-full flex items-center justify-center text-white px-4">
+          Empowering organizations to manage AI and cybersecurity risks in a digital world.
+        </div>
+      ),
+    },
+    {
+      title: "Key Responsibilities",
+      description:
+        "• Supporting clients in AI & Cybersecurity risk consulting projects.\n• Contributing to cybersecurity frameworks such as ISO 27001 and threat management strategies.\n• Applying Python, SQL, and data analytics to build secure and scalable solutions.\n• Collaborating with cross-functional teams to drive risk mitigation and compliance initiatives.",
+      content: (
+        <div className="h-full w-full flex items-center justify-center text-white px-4 text-left">
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Supporting clients in AI &amp; Cybersecurity risk consulting projects.</li>
+            <li>Contributing to cybersecurity frameworks such as ISO 27001 and threat management strategies.</li>
+            <li>Applying Python, SQL, and data analytics to build secure and scalable solutions.</li>
+            <li>Collaborating with cross-functional teams to drive risk mitigation and compliance initiatives.</li>
+          </ul>
+        </div>
+      ),
+    },
+  ],
   DRDO: [
     {
       title: "DRDO Internship",

@@ -11,6 +11,17 @@ const Work = ({ isDesktop }) => {
   const tabItems = useMemo(
     () => [
       {
+        title: "PwC – Risk Consultant (Current)",
+        value: "pwc",
+        content: (
+          <StickyScroll
+            isDesktop={isDesktop}
+            contentItems={WORK_CONTENTS.PwC}
+          />
+        ),
+        highlight: true,
+      },
+      {
         title: "DRDO Intern",
         value: "drdo",
         content: (
